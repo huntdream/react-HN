@@ -3,11 +3,11 @@ import React,{Component} from 'react';
 class Home extends Component{
     render(){
         return (
-            <div className='py-4'>
-                <h1 className='text-center'>
-                    <p className='text-primary'>There is a crack in everything</p>
-                    <p className='text-primary'>That's how the light gets in</p>
-                </h1>
+            <div className='py-2'>
+                <div className='text-center'>
+                    <div className='text-primary'>There is a crack in everything</div>
+                    <div className='text-primary'>That's how the light gets in</div>
+                </div>
             </div>
         )
     }

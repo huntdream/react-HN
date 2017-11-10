@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://huntdream.github.io/react-HN/build/",
+  "homepage": "https://huntdream.github.io/react-HN",
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
     "normalize.css": "^7.0.0",

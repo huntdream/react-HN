@@ -9,7 +9,7 @@ import Home from './component/Home'
 class Nav extends Component {
     render() {
         return (
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
                 <div>
                     <header>
                         <ul className='nav justify-content-center'>

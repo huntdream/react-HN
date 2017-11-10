@@ -17,7 +17,7 @@ class Search extends Component {
         this.setState({
             query: e.target.value
         });
-        fetch('http://hn.algolia.com/api/v1/search?query=' + this.state.query)
+        fetch('https://hn.algolia.com/api/v1/search?query=' + this.state.query)
             .then(response => response.json())
             .then(data => {
                 this.setState({

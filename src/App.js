@@ -20,7 +20,7 @@ class Nav extends Component {
                         </ul>
                     </header>
                     <div className="container px-md-1 py-1">
-                        <Route exact path='/' component={Home} />
+                        <Route path='/' component={Home} />
                         <Route path='/search' component={Search}/>
                         <Route path='/latest-story' component={LatestStory}/>
                     </div>

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Route, NavLink} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import LatestStory from './component/LatestStory'
@@ -12,10 +12,10 @@ class Nav extends Component {
             <Router basename={process.env.PUBLIC_URL}>
                 <div>
                     <header>
-                        <ul className='nav justify-content-center'>
-                            <li className='nav-item mr-2'><Link to="/" className='nav-link'>Home</Link></li>
-                            <li className='nav-item mr-2'><Link to="/search" className='nav-link'>Search</Link></li>
-                            <li className='nav-item'><Link to="/latest-story" className='nav-link'>Latest Story</Link>
+                        <ul className='nav justify-content-center nav-tabs'>
+                            <li className='nav-item mr-2'><NavLink exact to="/" className='nav-link' activeClassName='active'>Home</NavLink></li>
+                            <li className='nav-item mr-2'><NavLink to="/search" className='nav-link' activeClassName='active'>Search</NavLink></li>
+                            <li className='nav-item'><NavLink to="/latest-story" className='nav-link' activeClassName='active'>Latest Story</NavLink>
                             </li>
                         </ul>
                     </header>

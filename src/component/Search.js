@@ -39,7 +39,7 @@ class Search extends Component {
         return (
             <div>
                 <div className='form-group'>
-                    <input className='form-control' type="text" placeholder="Type what you want to know" onChange={this.doSearch}/>
+                    <input className='form-control' type="text" placeholder="Search..." onChange={this.doSearch}/>
                 </div>
                 <Result result={this.state.result}/>
 
